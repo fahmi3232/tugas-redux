@@ -1,10 +1,16 @@
 import './App.css';
+import Footer from './Component/Footer';
+import Header from './Component/Header';
 
 function App() {
   return (
-    <div className="App">
-      <hi>Hello React</hi>
-    </div>
+    <>
+      <Header></Header>
+      <main>
+        <h1>Welcome to WEb_shop</h1>
+      </main>
+      <Footer></Footer>
+    </>
   );
 }
 
