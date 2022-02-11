@@ -1,15 +1,12 @@
 import './App.css';
-import Footer from './Component/Footer';
-import Header from './Component/Header';
+import { ListFilm, ListKontak } from './components';
 
 function App() {
   return (
     <>
-      <Header></Header>
-      <main>
-        <h1>Welcome to WEb_shop</h1>
-      </main>
-      <Footer></Footer>
+      <h3>Ini adalah aplikasi redux</h3>
+      {/* <ListKontak /> */}
+      <ListFilm />
     </>
   );
 }
